@@ -12,8 +12,32 @@
       font-family: sans-serif;
     }
       
- /* Add CSS code here */
+ /* Apply the same color to the link and visited state of all hyperlinks */
+a {
+  color: blue;
+  text-decoration: none; /* Remove underline */
+}
 
+/* Add a hover state to hyperlinks */
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Use a descendant selector to select the hyperlinks elements in the navigation list */
+nav ul li a {
+  color: black; /* Set color to black for all hyperlinks in navigation */
+}
+
+/* Remove underline from navigation links in all states but hover */
+nav ul li a {
+  text-decoration: none;
+}
+
+/* Add a focus state to the input box */
+#emailbox:focus {
+  background-color: lightgray; /* Change background color when focused */
+  border: 1px solid gray; /* Add border when focused */
+}
     </style>
 
   </head>

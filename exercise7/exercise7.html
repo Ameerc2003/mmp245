@@ -5,7 +5,20 @@
     <title>Exercise 7</title>
 
     <style>
-    /* Type CSS code here */
+    /* Change the display of the parent element to flex */
+.flex-container {
+  display: flex;
+}
+
+/* Force the flex items to expand to fill the available space */
+.flex-item {
+  flex: 1 0 auto;
+}
+
+/* Make the first flex item twice the size of the other items */
+.lead {
+  flex: 2 0 0;
+}
 
     #wrapper{
       max-width:1200px;
