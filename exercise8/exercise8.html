@@ -7,7 +7,23 @@
     <title>Exercise 8</title>
 
     <style>
-    /* Add CSS code here */
+    @media (max-width: 768px) {
+  nav {
+    padding: 0; /* Remove padding */
+  }
+
+  nav ul {
+    display: block; /* Change display to block */
+  }
+
+  nav li {
+    display: block; /* Change display to block */
+    padding: 1em 0; /* Add padding */
+    border-right: none; /* Remove right border */
+    border-bottom: solid 1px #fff; /* Add bottom border */
+  }
+}
+
 
     ul{              /* resetting ul defaults padding and margins */
       padding:0;
@@ -62,3 +78,4 @@
     </div> <!-- #wrapper -->
   </body>
 </html>
+
