@@ -37,12 +37,12 @@ h1, h2, h3 {
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #1a4d7c; /* blue */
+    color: #1a4d7c; 
 }
 
 h2 {
     font-size: 2em;
-    color: #1a4d7c; /* blue */
+    color: #1a4d7c; 
 }
 
 p {
