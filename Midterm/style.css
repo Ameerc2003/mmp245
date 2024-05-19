@@ -1,0 +1,90 @@
+header{
+  background: url(tv_show_image.jpg) right top no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+header p {
+  background: url(tv_show_image.jpg) left top no-repeat;
+  background-size: cover;
+  background-color: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px);
+  height: 150px
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #8f8f8f;
+    border-radius: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+
+
+  .episode-card{
+    width: 24%;
+  }
+  
+
+
+.episodes {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+.responsive-img{
+  width: 100%;
+}
