@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delicious Recipe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Delicious Recipe</h1>
+  <img src="images/recipe.jpg" alt="Recipe Image">
+</header>
+
+<main>
+  <section>
+    <h2>Ingredients:</h2>
+    <ul>
+      <li>Ingredient 1</li>
+      <li>Ingredient 2</li>
+      <li>Ingredient 3</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Instructions:</h2>
+    <ol>
+      <li>Step 1: Do something</li>
+      <li>Step 2: Do something else</li>
+      <li>Step 3: Enjoy!</li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <p>Copyright &copy; 2024 Your Name</p>
+</footer>
+
+</body>
+</html>
